@@ -53,6 +53,10 @@ a {
     font-family: 'Times New Roman', Times, serif;
 }
 
+a:hover {
+    filter: drop-shadow(5px 5px #2C2C2C);
+}
+
 details summary {
     list-style: none;
     cursor: pointer;
@@ -191,4 +195,5 @@ main {
         max-width: 25px;
         max-height: 25px;
     }
+
 }
