@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atmosphère Aurora</title>
+    <link rel="stylesheet" href="page_produit_style.css"/>
+  </head>
+  <body>
+    <header>
+      <details>
+        <summary>
+          <img
+            class="img-menu"
+            src="/Images/menu.png"
+            alt="icone de menu déroulant"
+          />
+        </summary>
+        <div class="panel">
+          <ul>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Collections</a></li>
+            <li><a href="#">Notre histoire</a></li>
+          </ul>
+        </div>
+      </details>
+      <img class="logo" src="/Images/Logo.png" alt="logo de la marque Ether" />
+      <div class="account">
+        <a href="#" class="cart-link">
+          <img
+            class="img-account"
+            src="/Images/shopping.png"
+            alt="icone de panier"
+          />
+          <span id="cart-badge" class="cart-badge visually-hidden" role="button" tabindex="0" aria-live="polite" aria-label="Panier vide">0</span>
+        </a>
+        <a href="#"
+          ><img
+            class="img-account"
+            src="/Images/Compte.png"
+            alt="icone de compte"
+        /></a>
+      </div>
+    </header>
+    <main>
+      <div class="product">
+        <picture><source media="(max-width: 600px)" srcset="/Images/visuels/mobile/aurora-mobile.jpg" /><img src="/Images/visuels/desktop/aurora-desktop.jpg" alt="Canette Atmosphère Aurora" class="img-product" /></picture>
+        <div class="infos">
+          <h2 class="titre">Atmosphère Aurora</h2>
+          <p class="PS">Édition limitée</p>
+          <a href="#" id="add-to-cart" class="button-link">
+            <div class="button">
+              <p class="button-text">Ajouter au panier</p>
+              <p class="button-price">100.00€</p>
+            </div>
+          </a>
+          <div class="line"></div>
+          <h3 class="description-titre">Description</h3>
+          <p class="description-produit">
+            Une inspiration polaire, entre glaciers et paysages islandais,
+            empreinte de pureté et de lumière naturelle. Cette canette renferme
+            un souffle délicat, tel une promenade lente au cœur des étendues
+            glacées, sous le ciel dansant des aurores boréales. Dès l’ouverture,
+            l'atmosphère évoque la fraîcheur cristalline des vents nordiques,
+            subtilement équilibrée par des notes glacées et lumineuses. Pensée
+            comme une respiration naturelle, cette canette diffuse une sensation
+            immédiate de calme et de bien-être. Une atmosphère pure et raffinée, inspiré
+            par la magie de l’Islande et de ses nuits polaires, invitant à
+            ralentir et à savourer l’instant, entre authenticité sauvage et
+            élégance intemporelle.
+          </p>
+        </div>
+      </div>
+      <div class="recomendations">
+        <h2 class="titre-recomendations">Dans la même collection</h2>
+        <div class="cards">
+        <div class="card" id="Éruptive">
+          <picture><source media="(max-width: 600px)" srcset="/Images/visuels/Mobile/éruptive-mobile.jpg" /><img class="img-produit" src="/Images/visuels/desktop/éruptive-desktop.jpg" alt="Image de la canette " /></picture>
+          <div class="produit-infos">
+          <h2 class="titre-produit">Atmosphère Éruptive</h2>
+          <p class="description">
+            Une inspiration tropicale et sauvage, entre forêts luxuriantes et
+            sommets ardents, empreinte de puissance et de mystère...
+          </p>
+          <h2 class="price">100.00€</h2>
+          </div>
+        </div>
+              <div class="card" id="Séraphique">
+          <picture><source media="(max-width: 600px)" srcset="/images/visuels/mobile/séraphique-mobile.jpg" /><img class="img-produit" src="/Images/visuels/desktop/séraphique-desktop.jpg" alt="Image de la canette " /></picture>
+          <div class="produit-infos">
+          <h2 class="titre-produit">Atmosphère Séraphique</h2>
+          <p class="description">
+            Une inspiration cycladique, empreinte de pureté et de fraîcheur
+            lumineuse. Cette canette renferme un souffre délicat...
+          </p>
+          <h2 class="price">100.00€</h2>
+          </div>
+      </div>
+      <div class="card" id="Oasis">
+            <picture><source media="(max-width: 600px)" srcset="/images/visuels/mobile/oasis-mobile.jpg" /><img class="img-produit" src="/Images/visuels/desktop/oasis-desktop.jpg" alt="Image de la canette" /></picture>
+          <div class="produit-infos">
+          <h2 class="titre-produit">Atmosphère Oasis</h2>
+          <p class="description">
+            Une inspiration saharienne, entre dunes dorées et ciel infini, empreinte de calme et de mystère...
+          </p>
+          <h2 class="price">100.00€</h2>
+          </div>
+        </div>
+    </main>
+    <script src="script.js" defer></script>
+  </body>
+</html>
