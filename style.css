@@ -55,6 +55,7 @@ a {
 
 a:hover {
     filter: drop-shadow(5px 5px #2C2C2C);
+    transition: all 0.3s ease-in-out;
 }
 
 details summary {
@@ -197,3 +198,4 @@ main {
     }
 
 }
+
